@@ -1,0 +1,20 @@
+* A sample project to do kokuchi in Twitter written in ruby
+
+First, just write your Twitter development keys in .env 
+
+#+BEGIN_SRC sh
+cp .env.template .env
+edit .env
+#+END_SRC
+
+and bundle install
+
+#+BEGIN_SRC sh
+bundle install
+#+END_SRC
+
+and do kokuchi
+
+#+BEGIN_SRC sh
+bundle exec ruby kokuchi.rb
+#+END_SRC
